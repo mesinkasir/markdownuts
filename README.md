@@ -34,7 +34,7 @@ Let's start using markdownuts now to build a modern PHP website easily and quick
 + Tags List
 + Tags Page
 + Static Page
-+ Sitemap Generator Include
++ Sitemap Generator
 + And More...
 
 ----
