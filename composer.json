@@ -1,0 +1,69 @@
+{
+    "name": "creativitas/markdownuts",
+    "type": "project",
+    "description": "Next Generation PHP Markdown Website",
+    "author": [
+        {
+        "name": "Creativitas",
+        "email": "creativebydre@gmail.com",
+        "url": "https://creativitas.dev"
+            
+        },
+        {
+        "name": "MarkDownuts Contributors",
+        "url": "https://github.com/mesinkasir/markdownuts"
+            
+        }
+    ],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mesinkasir/markdownuts.git"
+	},
+	"funding": [
+	    {
+		"type": "github",
+		"url": "https://github.com/sponsors/mesinkasir"
+	    },
+	    {
+		"type": "gumroad",
+		"url": "https://creativitaz.gumroad.com/coffee"
+	    },
+	    {
+		"type": "paypal",
+		"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN"
+	    }
+	],
+    "keywords": ["php","markdown","flatfile","static-site-generator", "blog", "website", "markdown", "yaml", "yml", "flat-file-cms", "cms" , "content-managament-system", "content-management", "flat-file", "markdown-to-html", "simple"],
+    "homepage": "https://markdownuts.axcora.com",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "symfony/yaml": "^5.4"
+    },
+    "autoload": {
+        "files": [
+            "functions.php",
+            "generate_sitemap.php",
+            "Parsedown.php"
+        ],
+        "classmap": [
+            "."
+        ]
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "extra": {
+        "config-files": [
+            "config.yml"
+        ],
+        "web-files": [
+            "index.php",
+            "page.php",
+            "posts.php",
+            "tag.php",
+            "tags.php",
+            "robots.txt"
+        ]
+    }
+}

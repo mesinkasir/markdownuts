@@ -1,0 +1,31 @@
+# Site settings
+title: "My Awesome Blog"
+description: "A blog about awesome things"
+url: "http://localhost/markdownuts"
+email: "axcora@gmail.com"
+locale: "en_US"
+language: "en"
+image: "/media/logo.webp"
+icon: "/media/logo.webp"
+markdown: kramdown
+posts_per_page: "4"
+show_excerpts: true
+navbar:
+ - nav: "Home"
+   url: "/"
+ - nav: "About"
+   url: "/page/about"
+ - nav: "Tags"
+   url: "/tags"
+ - nav: "Contact"
+   url: "/page/contact-us"
+social:
+ facebook: "https://facebook.com/user"
+ twitter: "https://x.com/iser"
+ twitter_user: "@user"
+author: 
+ name: "Creativitas Dev"
+ url: "/page/about"
+footer: "Brutalisme Copyrights 2025"
+
+
