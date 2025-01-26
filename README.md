@@ -51,7 +51,7 @@ A Project by [Creativitas](https://creativitas.dev/)
 
 ### Brutalisme Starter Themes
 
-![Brutalism MarkDownuts](markdownuts-brutalisme.jpg)
+![Brutalism MarkDownuts](markdownuts-brutalisme.webp)
 
 Starter themes for help you develop your modern website quickly !!
 
@@ -59,11 +59,11 @@ Test Drive Brutalisme Peformance and Speed
 
 Mobile Target
 
-![Brutalism MarkDownuts Mobile Peformance](mobile.png)
+![Brutalism MarkDownuts Mobile Peformance](mobile.webp)
 
 Desktop Target
 
-![Brutalism MarkDownuts Desktop Peformance](desktop.png)
+![Brutalism MarkDownuts Desktop Peformance](desktop.webp)
 
 ----
 
