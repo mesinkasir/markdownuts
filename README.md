@@ -73,6 +73,12 @@ Let's built and develop your modern PHP website with MarkDownuts
 
 ### Install via composer
 
+Installation markdownuts default via composer
+
+`composer create-project creativitas/markdownuts`
+
+Installation markdownuts with your project name via composer
+
 `composer create-project creativitas/markdownuts project-name`
 
 change `project-name` with your project name, example `markdownuts`

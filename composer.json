@@ -2,6 +2,8 @@
     "name": "creativitas/markdownuts",
     "type": "project",
     "description": "Next Generation PHP Markdown Website",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "author": [
         {
         "name": "Creativitas",
