@@ -43,6 +43,8 @@ Let's start using markdownuts now to build a modern PHP website easily and quick
 
 ----
 
+Test drive demo : [Run Demo](https://axcora.my.id/markdown/v2/demo/)
+
 Download free open source code [https://www.hockeycomputindo.com/themes](https://www.hockeycomputindo.com/themes)
 
 A Project by [Creativitas](https://creativitas.dev/)
@@ -129,6 +131,8 @@ You can read how work with MarkDownuts project on our documentation site - Comin
 ### [🚀 Become a Sponsor](https://github.com/sponsors/mesinkasir) | [☕ Buy me Coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN) |  [🍩 Buy me a Donuts](https://creativitaz.gumroad.com/coffee)
 
 ----
+
+Test drive demo : [Run Demo](https://axcora.my.id/markdown/v2/demo/)
 
 Download free open source code [https://www.hockeycomputindo.com/themes](https://www.hockeycomputindo.com/themes)
 
