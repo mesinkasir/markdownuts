@@ -12,6 +12,8 @@ This project is inspired by Jekyll, Eleventy 11ty which focuses on speed, simpli
 
 Let's start using markdownuts now to build a modern PHP website easily and quickly.
 
+Documentation : https://markdownuts.axcora.com/
+
 ### Features
 
 + Very easy to use
@@ -123,7 +125,7 @@ You can generate sitemap for your blog , open terminal and run `php generate_sit
 
 ### Documentation and Official Page
 
-You can read how work with MarkDownuts project on our documentation site - Coming soon... on progress.......
+You can read how work with MarkDownuts project on our documentation site - https://markdownuts.axcora.com/
 
 
 ----
