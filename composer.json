@@ -64,7 +64,23 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-            "php -r \"array_map(function($f) { file_exists($f) || copy($f, getcwd() . '/' . basename($f)); }, glob(__DIR__ . '/web-files/*'));\""
+            "php -r \"mkdir('design');\"",
+            "php -r \"mkdir('media');\"",
+            "php -r \"mkdir('pages');\"",
+            "php -r \"mkdir('posts');\"",
+            "php -r \"file_put_contents('pages/post.md', '');\"",
+            "php -r \"file_put_contents('posts/post.md', '');\"",
+            "php -r \"copy('composer.json', getcwd() . '/composer.json');\"",
+            "php -r \"copy('config.yml', getcwd() . '/config.yml');\"",
+            "php -r \"copy('functions.php', getcwd() . '/functions.php');\"",
+            "php -r \"copy('generate_sitemap.php', getcwd() . '/generate_sitemap.php');\"",
+            "php -r \"copy('index.php', getcwd() . '/index.php');\"",
+            "php -r \"copy('Parsedown.php', getcwd() . '/Parsedown.php');\"",
+            "php -r \"copy('post.php', getcwd() . '/post.php');\"",
+            "php -r \"copy('robots.txt', getcwd() . '/robots.txt');\"",
+            "php -r \"copy('README.md', getcwd() . '/README.md');\"",
+            "php -r \"copy('tags.php', getcwd() . '/tags.php');\"",
+            "php -r \"copy('tag.php', getcwd() . '/tag.php');\""
         ]
     }
 }
