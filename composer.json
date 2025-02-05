@@ -61,5 +61,10 @@
             "README.md",
             "robots.txt"
         ]
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "php -r \"array_map(function($f) { file_exists($f) || copy($f, getcwd() . '/' . basename($f)); }, glob(__DIR__ . '/web-files/*'));\""
+        ]
     }
 }
