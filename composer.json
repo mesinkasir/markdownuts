@@ -4,7 +4,8 @@
     "description": "Next Generation PHP Markdown Website",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "author": [
+    "license": "MIT",
+    "authors": [
         {
         "name": "Creativitas",
         "email": "creativebydre@gmail.com",
@@ -42,16 +43,6 @@
         "php": "^7.4 || ^8.0",
         "symfony/yaml": "^5.4"
     },
-    "autoload": {
-        "files": [
-            "functions.php",
-            "generate_sitemap.php",
-            "Parsedown.php"
-        ],
-        "classmap": [
-            "."
-        ]
-    },
     "config": {
         "vendor-dir": "vendor"
     },
@@ -65,6 +56,9 @@
             "posts.php",
             "tag.php",
             "tags.php",
+            "generate_sitemap.php",
+            "Parsedown.php",
+            "README.md",
             "robots.txt"
         ]
     }
