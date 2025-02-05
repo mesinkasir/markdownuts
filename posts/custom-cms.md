@@ -8,7 +8,7 @@ tags: CMS,content management,headless CMS
 
 Managing your website's content should be effortless. At Creativitas.dev, we specialize in creating custom Content Management System (CMS) solutions that make updating your site a breeze[2][4].
 
-Our CMS expertise includes:
+Our CMS expertise includes: 
 
 - Headless CMS integration with static sites and SPAs
 - Custom WordPress development and theming
