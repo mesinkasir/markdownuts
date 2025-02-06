@@ -94,7 +94,7 @@ Installation markdownuts with your project name via composer
 
 change `project-name` with your project name, example `markdownuts`
 
-### Install with terminal
+### Install with git
 
 Other solutions you can use terminal , open terminal and run 
 
@@ -114,7 +114,9 @@ Download markDownuts complete source code file, and upload in to your host , nex
 
 ### Setup your site
 
-For first of course you need to setup your site, you can change your site name, description, social media and others in to `config.yml`
+After installing and running your project, you will see the starter project is a skeleton version without CSS styling. First of course you need to set up your site, add your site URL, you can change the site name, description, social media and more into `config.yml`
+
+After entering your site URL, via config.yml then Brutalism Starter is active as your theme.
 
 To setup your Site for SEO , sitename, Twitter card and Open Graph ,nabar,and copyrights on footer you can update your site name , twitter user, facebook user and others on config.yml
 
@@ -128,7 +130,9 @@ If you want to create new static page, you can access on `pages` folder, and cre
 
 ### Generate Sitemap
 
-You can generate sitemap for your blog , open terminal and run `php generate_sitemap.php`
+To generate an automatic sitemap.xml, just access `yourweb.com/getsitemp.xml` change yourweb.com with your domain name.
+
+You can generate sitemap manually for your blog , open terminal and run `php generate_sitemap.php`
 
 ### Documentation and Official Page
 
