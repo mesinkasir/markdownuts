@@ -2,6 +2,8 @@
 
 Next Generation PHP Markdown Website - Flatifle CMS - Static Site Generator Alternative run on PHP
 
+----
+
 ## About MarkDownuts 🍩
 
 Do you want to develop and build a website by adopting the concept of a static site generator,working with markdown , yaml like jekyll / 11ty eleventy, and running on your PHP hosting??
@@ -13,6 +15,8 @@ This project is inspired by Jekyll, Eleventy 11ty which focuses on speed, simpli
 Let's start using markdownuts now to build a modern PHP website easily and quickly.
 
 Documentation : https://markdownuts.axcora.com/
+
+----
 
 ### Features
 
@@ -127,6 +131,15 @@ You can generate sitemap for your blog , open terminal and run `php generate_sit
 
 You can read how work with MarkDownuts project on our documentation site - https://markdownuts.axcora.com/
 
+----
+
+### Next Update Backend CMS
+
+Markdownuts currently embraces the approach of Jekyll and 11ty, seamlessly working with Markdown (.md) files and YAML configurations. This foundation provides a robust and flexible system for content management.
+
+Looking ahead, we're excited to announce our next big step: the development of a powerful backend CMS tailored to enhance your workflow and boost productivity. This upcoming feature will offer you an intuitive interface, making content creation and management a breeze.
+
+Stay tuned for updates as we continue to evolve Markdownuts into an even more comprehensive and user-friendly platform!
 
 ----
 
