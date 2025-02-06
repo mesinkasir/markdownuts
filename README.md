@@ -130,7 +130,7 @@ If you want to create new static page, you can access on `pages` folder, and cre
 
 ### Generate Sitemap
 
-To generate an automatic sitemap.xml, just access `yourweb.com/getsitemp.xml` change yourweb.com with your domain name.
+To generate an automatic sitemap.xml, just access `yourweb.com/getsitemp.php` change yourweb.com with your domain name.Next you check your root project folder to see the `sitemap.xml` that has been created.
 
 You can generate sitemap manually for your blog , open terminal and run `php generate_sitemap.php`
 
