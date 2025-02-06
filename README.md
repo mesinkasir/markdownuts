@@ -41,6 +41,9 @@ Documentation : https://markdownuts.axcora.com/
 + Tags Page
 + Static Page
 + Sitemap Generator
++ Auto Sitemap (New)
++ Auto Clear Cache (New)
++ Backend CMS (On Progress...)
 + And More...
 
 ----
@@ -140,16 +143,6 @@ Markdownuts currently embraces the approach of Jekyll and 11ty, seamlessly worki
 Looking ahead, we're excited to announce our next big step: the development of a powerful backend CMS tailored to enhance your workflow and boost productivity. This upcoming feature will offer you an intuitive interface, making content creation and management a breeze.
 
 Stay tuned for updates as we continue to evolve Markdownuts into an even more comprehensive and user-friendly platform!
-
-use this command for generate your password and add in to your project
-
-```
-<?php
-$password = '12345678'; // Ganti dengan password yang diinginkan
-$hashed_password = password_hash($password, PASSWORD_DEFAULT);
-echo $hashed_password;
-?>
-```
 
 ----
 
