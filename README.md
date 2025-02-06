@@ -141,6 +141,16 @@ Looking ahead, we're excited to announce our next big step: the development of a
 
 Stay tuned for updates as we continue to evolve Markdownuts into an even more comprehensive and user-friendly platform!
 
+use this command for generate your password and add in to your project
+
+```
+<?php
+$password = '12345678'; // Ganti dengan password yang diinginkan
+$hashed_password = password_hash($password, PASSWORD_DEFAULT);
+echo $hashed_password;
+?>
+```
+
 ----
 
 ### [🚀 Become a Sponsor](https://github.com/sponsors/mesinkasir) | [☕ Buy me Coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN) |  [🍩 Buy me a Donuts](https://creativitaz.gumroad.com/coffee)

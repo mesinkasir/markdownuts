@@ -38,13 +38,13 @@
 	],
     "keywords": ["php","markdown","flatfile","static-site-generator", "blog", "website", "markdown", "yaml", "yml", "flat-file-cms", "cms" , "content-managament-system", "content-management", "flat-file", "markdown-to-html", "simple"],
     "homepage": "https://markdownuts.axcora.com",
-    "license": "MIT",
     "require": {
         "php": "^7.4 || ^8.0",
         "symfony/yaml": "^5.4",
         "erusev/parsedown": "^1.7",
         "league/commonmark": "^2.6",
-        "ezyang/htmlpurifier": "^4.18"
+        "ezyang/htmlpurifier": "^4.18",
+        "symfony/cache": "^5.4"
     },
 
     "config": {
