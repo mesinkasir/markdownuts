@@ -43,7 +43,7 @@ Documentation : https://markdownuts.axcora.com/
 + Sitemap Generator
 + Auto Sitemap (New)
 + Auto Clear Cache (New)
-+ Backend CMS (On Progress...)
++ Backend CMS (New) [Download Backend CMS Plugin](https://markdownuts.axcora.com/theme/admincms/)
 + And More...
 
 ----
