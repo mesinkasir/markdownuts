@@ -144,6 +144,8 @@ You can read how work with MarkDownuts project on our documentation site - https
 
 Markdownuts currently embraces the approach of Jekyll and 11ty, seamlessly working with Markdown (.md) files and YAML configurations. This foundation provides a robust and flexible system for content management.
 
+![Markdownuts CMS](admincms.jpg)
+
 Looking ahead, we're excited to announce our next big step: the development of a powerful backend CMS tailored to enhance your workflow and boost productivity. This upcoming feature will offer you an intuitive interface, making content creation and management a breeze.
 
 Stay tuned for updates as we continue to evolve Markdownuts into an even more comprehensive and user-friendly platform!
