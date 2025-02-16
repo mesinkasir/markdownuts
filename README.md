@@ -140,13 +140,13 @@ You can read how work with MarkDownuts project on our documentation site - https
 
 ----
 
-### Next Update Backend CMS
+### NEW Backend CMS Plugins
 
 Markdownuts currently embraces the approach of Jekyll and 11ty, seamlessly working with Markdown (.md) files and YAML configurations. This foundation provides a robust and flexible system for content management.
 
 ![Markdownuts CMS](admincms.webp)
 
-Looking ahead, we're excited to announce our next big step: the development of a powerful backend CMS tailored to enhance your workflow and boost productivity. This upcoming feature will offer you an intuitive interface, making content creation and management a breeze.
+Looking ahead, we're excited to announce our next big step: the development of a powerful backend CMS tailored to enhance your workflow and boost productivity. This feature will offer you an intuitive interface, making content creation and management a breeze.
 
 [Download Backend CMS Plugin Now](https://markdownuts.axcora.com/theme/admincms/)
 
