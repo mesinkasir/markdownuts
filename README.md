@@ -150,6 +150,10 @@ Looking ahead, we're excited to announce our next big step: the development of a
 
 [Download Backend CMS Plugin Now](https://markdownuts.axcora.com/theme/admincms/)
 
+Download and upload backend CMS plugin into your markDownuts root folder project, next you can access om yoursite.com/admin.
+
+For default email and password you can read here - [https://markdownuts.axcora.com/theme/admincms/](https://markdownuts.axcora.com/theme/admincms/)
+
 ----
 
 ### [🚀 Become a Sponsor](https://github.com/sponsors/mesinkasir) | [☕ Buy me Coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN) |  [🍩 Buy me a Donuts](https://creativitaz.gumroad.com/coffee)
