@@ -20,6 +20,7 @@ Documentation : https://markdownuts.axcora.com/
 
 ### Features
 
++ PHP never die !!
 + Very easy to use
 + No Database
 + No Need Build Production
