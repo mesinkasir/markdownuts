@@ -169,7 +169,7 @@ Test drive demo : [Run Demo](https://axcora.my.id/markdown/v2/demo/)
 
 ---
 
-Thanks Contributor
+Thanks to Contributors
 
 + [mesinkasir](https://github.com/mesinkasir)
 + [rrr63](https://github.com/rrr63)
