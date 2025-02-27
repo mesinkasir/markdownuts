@@ -1,10 +1,4 @@
 RewriteEngine On
-RewriteBase /
-RewriteRule ^tag/([^/]+)/?$ tag.php?tag=$1 [L,QSA]
-RewriteRule ^tag/([^/]+)/(\d+)/?$ tag.php?tag=$1&page=$2 [L,QSA]
-RewriteRule ^post/([^/]+)/?$ post.php?slug=$1 [L,QSA]
-RewriteRule ^page/([^/]+)/?$ page.php?slug=$1 [L,QSA]
-RewriteRule ^tags tags.php [L,QSA]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php [L,QSA]
+RewriteRule . index.php [L,QSA]
