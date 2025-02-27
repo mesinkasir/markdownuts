@@ -16,6 +16,8 @@ Let's start using markdownuts now to build a modern PHP website easily and quick
 
 Documentation : https://markdownuts.axcora.com/
 
+Note: For now this project only works on cloud host / shared hosting directly.
+
 ----
 
 ### Features
@@ -55,8 +57,6 @@ Documentation : https://markdownuts.axcora.com/
 
 Test drive demo : [Run Demo](https://axcora.my.id/markdown/v2/demo/)
 
-Download free open source code [https://www.hockeycomputindo.com/themes](https://www.hockeycomputindo.com/themes)
-
 A Project by [Creativitas](https://creativitas.dev/)
 
 ----
@@ -84,6 +84,8 @@ Desktop Target
 Let's built and develop your modern PHP website with MarkDownuts
 
 ### Install via composer
+
+Open terminal on your cloud host.
 
 Installation markdownuts default via composer
 
