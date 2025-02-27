@@ -1,6 +1,11 @@
 <?php
-$uri = rtrim(parse_url($_SERVER['REQUEST_URI'])['path'], '/');
+$uri = parse_url($_SERVER['REQUEST_URI'])['path'];
+$basePath = '/pushw';
 
+if (strpos($uri, $basePath) === 0) {
+    $uri = substr($uri, strlen($basePath));
+}
+$uri = rtrim($uri, '/');
 $routes = [
     '/post/([^/]+)' => ['file' => 'post.php', 'param' => 'slug'],
     '/page/([^/]+)' => ['file' => 'page.php', 'param' => 'slug'],
@@ -18,11 +23,8 @@ foreach ($routes as $pattern => $route) {
     }
 }
 
-if ($uri !== '' && file_exists(__DIR__ . '/../' . $uri) && !is_dir(__DIR__ . '/../' . $uri)) {
+if ($uri !== '' && file_exists(__DIR__ . '/../' . ltrim($uri, '/'))) {
     return false;
 }
 
-if ($uri !== '') {
-    header('Location: /');
-    exit;
-}
+return true;
