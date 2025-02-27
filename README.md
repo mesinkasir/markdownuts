@@ -167,7 +167,10 @@ For default email and password you can read here - [https://markdownuts.axcora.c
 
 Test drive demo : [Run Demo](https://axcora.my.id/markdown/v2/demo/)
 
-Download free open source code [https://www.hockeycomputindo.com/themes](https://www.hockeycomputindo.com/themes)
+---
 
-A Project by [Creativitas](https://creativitas.dev/)
+Thanks Contributor
+
++ [mesinkasir](https://github.com/mesinkasir)
++ [rrr63](https://github.com/rrr63)
 
