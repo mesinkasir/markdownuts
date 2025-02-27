@@ -47,7 +47,7 @@ Note: For now this project only works on cloud host / shared hosting directly.
 + Auto Sitemap (New)
 + Auto Clear Cache (New)
 + Backend CMS (New) [Download Backend CMS Plugin](https://markdownuts.axcora.com/theme/admincms/)
-+ PHP server by @rrr63
++ PHP server by [@rrr63](https://github.com/rrr63)
 + And More...
 
 
