@@ -1,5 +1,10 @@
 RewriteEngine On
+
+# add your root project or sub domain / dir domain
+# your project name
+# Example RewriteBase /markdowunts/
 RewriteBase /
+
 RewriteRule ^tag/([^/]+)/?$ tag.php?tag=$1 [L,QSA]
 RewriteRule ^tag/([^/]+)/(\d+)/?$ tag.php?tag=$1&page=$2 [L,QSA]
 RewriteRule ^post/([^/]+)/?$ post.php?slug=$1 [L,QSA]
