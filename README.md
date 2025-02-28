@@ -16,8 +16,6 @@ Let's start using markdownuts now to build a modern PHP website easily and quick
 
 Documentation : https://markdownuts.axcora.com/
 
-Note: For now this project only works on cloud host / shared hosting directly.
-
 ----
 
 ### Features
@@ -121,6 +119,12 @@ Download markDownuts complete source code file, and upload in to your host , nex
 After installing and running your project, you will see the starter project is a skeleton version without CSS styling. First of course you need to set up your site, add your site URL, you can change the site name, description, social media and more into `config.yml`
 
 After entering your site URL, via config.yml then Brutalism Starter is active as your theme.
+
+If you work on local you need to setup you`.htaccess` , for example you want run on `htcods/markdownuts` , you can set look like this 
+
+```
+RewriteBase /markdownuts/
+```
 
 To setup your Site for SEO , sitename, Twitter card and Open Graph ,nabar,and copyrights on footer you can update your site name , twitter user, facebook user and others on config.yml
 
