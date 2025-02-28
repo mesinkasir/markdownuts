@@ -128,6 +128,15 @@ RewriteBase /markdownuts/
 
 To setup your Site for SEO , sitename, Twitter card and Open Graph ,nabar,and copyrights on footer you can update your site name , twitter user, facebook user and others on config.yml
 
+### Work with PHP built-in-webserver
+
+Open terminal anda access your project, `cd/myproject` next you can run
+
+```
+php -S localhost:8080 router.php
+
+```
+
 ### Create new post
 
 If you want to create new blog post, you can access on `posts` folder, and create new markdown files.
