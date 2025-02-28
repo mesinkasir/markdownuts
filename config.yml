@@ -1,6 +1,12 @@
 title: "My Awesome Blog"
 description: "A blog about awesome things"
 url: "http://localhost/markdownuts"
+#  if use xampp / wampp / lampp
+# url: "http://localhost/markdownuts"
+#  For live online mode insert Your domain name
+# url: "http://localhost/markdownuts"
+#  For PHP built in webserver
+# url: ""
 email: "axcora@gmail.com"
 locale: "en_US"
 language: "en"

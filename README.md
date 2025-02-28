@@ -120,6 +120,12 @@ After installing and running your project, you will see the starter project is a
 
 After entering your site URL, via config.yml then Brutalism Starter is active as your theme.
 
+SITE URL
+
++ Live online host you can add site url like this `url: "https://yourdomainanme.com"`
++ Wampp / Lampp / Xampp you can add site url like this `url: "http://localhost/markdownuts"`
++ PHP built in sever you can add make empty site url like this `url: ""`
+
 If you work on local you need to setup you`.htaccess` , for example you want run on `htcods/markdownuts` , you can set look like this 
 
 ```
