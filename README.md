@@ -54,7 +54,7 @@ Documentation : https://markdownuts.axcora.com/
 
 ----
 
-Test drive demo : [Run Demo](https://axcora.my.id/markdown/v2/demo/)
+Test drive demo : [Run Demo](https://axcora.my.id/markdownuts/brutalisme/)
 
 A Project by [Creativitas](https://creativitas.dev/)
 
@@ -183,7 +183,7 @@ For default email and password you can read here - [https://markdownuts.axcora.c
 
 ----
 
-Test drive demo : [Run Demo](https://axcora.my.id/markdown/v2/demo/)
+Test drive demo : [Run Demo](https://axcora.my.id/markdownuts/brutalisme/)
 
 ---
 
