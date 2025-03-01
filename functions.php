@@ -239,3 +239,47 @@ function getPostsByTag($tag, $page = 1, $perPage = 5) {
         'totalPosts' => $totalPosts
     ];
 }
+
+function getSitemap() {
+    $config = getConfig();
+    $baseUrl = rtrim($config['url'], '/');
+    
+    header('Content-Type: application/xml');
+    echo '<?xml version="1.0" encoding="UTF-8"?>';
+    echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+    
+    // Halaman utama
+    echo '<url>
+            <loc>'.$baseUrl.'/</loc>
+            <lastmod>'.date('c', time()).'</lastmod>
+            <changefreq>daily</changefreq>
+          </url>';
+    
+    // Daftar post
+    $posts = glob('posts/*.md');
+    foreach($posts as $post) {
+        $slug = basename($post, '.md');
+        echo '<url>
+                <loc>'.$baseUrl.'/post/'.$slug.'</loc>
+                <lastmod>'.date('c', filemtime($post)).'</lastmod>
+              </url>';
+    }
+    
+    // Daftar halaman statis
+    $pages = glob('pages/*.md');
+    foreach($pages as $page) {
+        $slug = basename($page, '.md');
+        echo '<url>
+                <loc>'.$baseUrl.'/page/'.$slug.'</loc>
+                <lastmod>'.date('c', filemtime($page)).'</lastmod>
+              </url>';
+    }
+    
+    // Halaman tags
+    echo '<url>
+            <loc>'.$baseUrl.'/tags</loc>
+            <lastmod>'.date('c', time()).'</lastmod>
+          </url>';
+    
+    echo '</urlset>';
+}
