@@ -187,6 +187,3 @@ For default email and password you can read here - [https://markdownuts.axcora.c
 ----
 
 Test drive demo : [Run Demo](https://axcora.my.id/markdownuts/brutalisme/)
-
----
-
