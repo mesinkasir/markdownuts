@@ -4,9 +4,6 @@ Next Generation PHP Markdown Website - Flatifle CMS - Static Site Generator Alte
 
 ----
 
-### 💖 Thanks for Sponsor 
-----
-
 ## About MarkDownuts 🍩
 
 Do you want to develop and build a website by adopting the concept of a static site generator,working with markdown , yaml like jekyll / 11ty eleventy, and running on your PHP hosting??
